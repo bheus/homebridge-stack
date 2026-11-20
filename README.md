@@ -9,7 +9,7 @@ Portainer Git stack for Homebridge on `apple-pi.lan`.
 
 ## Version policy
 
-Homebridge publishes **dated tags only** (`2026-11-15`), not semver, so Dependabot and
+Homebridge publishes **dated tags only** (`2026-06-24`), not semver, so Dependabot and
 Renovate can't parse them without a custom versioning rule. This image is therefore
 **updated manually and deliberately** — majors break plugins.
 
