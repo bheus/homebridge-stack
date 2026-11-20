@@ -1,8 +1,8 @@
 services:
   homebridge:
-    # Homebridge publishes dated tags only (no semver). 2026-06-24 == Homebridge 2.1.0.
+    # Homebridge publishes dated tags only (no semver). 2026-11-15 ships Homebridge 2.5.0 and Node.js 26.13.1.
     # Do NOT use :latest — it silently jumped 1.11.1 -> 2.x on 2026-07-04 and breaks plugins.
-    image: homebridge/homebridge:2026-06-24
+    image: homebridge/homebridge:2026-11-15
     container_name: homebridge
     restart: unless-stopped
     network_mode: host
